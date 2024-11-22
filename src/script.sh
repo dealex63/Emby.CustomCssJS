@@ -1,6 +1,7 @@
 #!/bin/bash
 
-$name = 'amilys-embyserver-1'
+read -p "请输入 Emby 容器名称" name
+name=${name:-amilys-embyserver-1}
 
 echo "Emby-css安装中...
 1.先检查插件
